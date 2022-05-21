@@ -1,0 +1,221 @@
+.color-0{color: #ffffff;}
+.color-1{color: #ff4444;}
+.color-2{color: #99cc00;}
+.color-3{color: #ffbb33;}
+.color-4{color: #0099cc;}
+.color-5{color: #33b5e5;}
+.color-6{color: #aa66cc;}
+.color-8{color: #cc0000;}
+.color-9{color: #cc0068;}
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 0px 0px black;
+}
+
+.no-grow {
+  flex-grow: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+#app {
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: transparent;
+}
+
+.chat-window {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  width: 35%;
+  height: 0px;
+  -webkit-animation-duration: 2s;
+}
+
+.chat-messages {
+  position: relative;
+  height: 340px;
+  font-size: 16px;
+  margin: 5px;
+  left:15px;
+  width:480px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.chat-input {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 360px;
+  left: 15px;
+  width: 20%;
+  margin-left:2%;
+  box-sizing: border-box;
+}
+
+.prefix {
+  position: absolute;
+  margin-top: -1px;
+  left: 4px;
+}
+
+textarea {
+  font-size: 1.1rem;
+  display: block;
+  box-sizing: border-box;
+  padding: 1px;
+  padding-left: 27px;
+  color: white;
+  background: linear-gradient(to right, #0cb982e3, #f5000000);
+  width: 120%;
+  border-width: 0;
+  height: 28px;
+  overflow: hidden;
+}
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.msg {
+  margin-bottom: 5px;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 1px;
+  padding-left: 27px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  color: white;
+  background: linear-gradient(to right, #000000, #f5000000);
+  width: 120%;
+}
+
+.help {
+  color: #b0bbbd;
+}
+
+
+.disabled {
+  color: #b0bbbd;
+}
+
+.suggestion {
+  margin-bottom: 5px;
+}
+
+.chat-message {
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(to right, #0cb9827c, #f5000000);
+  color: #fff;
+  margin-top: 10px;
+  padding: 8px;
+  display: inline-block;
+  line-height: 26px;
+  width:auto;
+  float:left;
+  margin-left:10px;
+}
+
+.chat-message-body {
+  /* font-size: 18px; */
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.chat-message.advert {
+  background-color: rgba(51, 112, 165, 0.85);
+
+}
+
+.chat-message.server {
+  background-color: rgba(187, 163, 30, 0.8);
+  /* color: black;
+  font-weight: bold; */
+}
+
+.chat-message.system {
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(190, 97, 18, 0.85);
+  color: #fff;
+  margin-top: 10px;
+  padding: 8px;
+  display: inline-block;
+  line-height: 26px;
+  width:auto;
+  float:left;
+  margin-left:10px;
+}
+
+.chat-message.emergency {
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(163, 62, 48, 0.85);
+  color: #fff;
+  margin-top: 10px;
+  padding: 8px;
+  display: inline-block;
+  line-height: 26px;
+  width:auto;
+  float:left;
+  margin-left:10px;
+}
+
+.chat-message.error {
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(163, 62, 48, 0.85);
+  color: #fff;
+  margin-top: 10px;
+  padding: 8px;
+  display: inline-block;
+  line-height: 26px;
+  width:auto;
+  float:left;
+  margin-left:10px;
+}
+
+.chat-message.nonemergency {
+  background-color: rgba(163, 41, 41, 0.8);
+}
+
+.chat-message.metpol {
+  background-color: rgba(132, 199, 24, 0.8);
+}
+
+.chat-message.morsmutual {
+  background-color: rgba(109, 80, 240, 0.8);
+  color: #ffffff;
+}
+
+/* ----- CSS Animation 
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+} */
